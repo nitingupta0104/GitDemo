@@ -6,7 +6,7 @@ import io.restassured.response.Response;
 public class simpletest {
 	
 	@Test
-	//this is a get method
+	//this is a get method call
 	public void getMethod() {
 		RestAssured.baseURI="https://reqres.in/api/users";
 		//RestAssured.given().when().get("https://reqres.in/api/users?page=2").then().log().all();
